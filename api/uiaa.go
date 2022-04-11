@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // ErrInteractiveAuthIncomplete is returned when the result is requested before interactive auth

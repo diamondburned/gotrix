@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chanbakjsd/gotrix/api"
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/state"
+	"github.com/diamondburned/gotrix/api"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/state"
 )
 
 // Client is an instance of a higher level client.

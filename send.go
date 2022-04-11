@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // SendMessage sends a message to the provided room ID with the provided content.

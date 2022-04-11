@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // ReceiptType is the type of receipt. ReceiptRead is the only valid type.

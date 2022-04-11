@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 func TestSpecExamples(t *testing.T) {

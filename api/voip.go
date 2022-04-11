@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/api/httputil"
 )
 
 // TURNServersResponse represents the response to (*Client).TURNServers().

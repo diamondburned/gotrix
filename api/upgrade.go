@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // UpgradeRoom creates a new room linked to the specified room with the specified new version.

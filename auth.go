@@ -1,8 +1,8 @@
 package gotrix
 
 import (
-	"github.com/chanbakjsd/gotrix/api"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // LoginPassword authenticates the client using the provided username and password.

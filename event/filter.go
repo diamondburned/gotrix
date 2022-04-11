@@ -1,7 +1,7 @@
 package event
 
 import (
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // GlobalFilter represents a filter that can be uploaded to/downloaded

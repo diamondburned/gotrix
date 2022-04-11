@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // ClientConfig retrieves the client config previously stored with ClientConfigSet.

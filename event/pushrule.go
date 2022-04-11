@@ -1,6 +1,6 @@
 package event
 
-import "github.com/chanbakjsd/gotrix/matrix"
+import "github.com/diamondburned/gotrix/matrix"
 
 // PushRulesEvent is an event that describes all push rules for this user.
 type PushRulesEvent struct {

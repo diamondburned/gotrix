@@ -3,9 +3,9 @@ package state
 import (
 	"sync"
 
-	"github.com/chanbakjsd/gotrix/api"
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // ErrStopIter is a copy of gotrix.ErrStopIter.

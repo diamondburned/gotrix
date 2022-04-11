@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/chanbakjsd/gotrix"
-	"github.com/chanbakjsd/gotrix/event"
+	"github.com/diamondburned/gotrix"
+	"github.com/diamondburned/gotrix/event"
 )
 
 func panicIfErr(err error) {

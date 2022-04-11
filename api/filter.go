@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/event"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/event"
 )
 
 // FilterAdd uploads the provided filter to the homeserver and returns its

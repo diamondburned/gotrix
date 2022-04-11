@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chanbakjsd/gotrix/api"
-	"github.com/chanbakjsd/gotrix/debug"
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api"
+	"github.com/diamondburned/gotrix/debug"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // SyncOptions contains options for the /sync endpoint that is used once the

@@ -3,7 +3,7 @@ package gotrix
 import (
 	"net/url"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/api/httputil"
 )
 
 // Discover is a helper function that calls DiscoverWithClient with the default HTTP client.

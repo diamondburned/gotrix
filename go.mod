@@ -1,4 +1,4 @@
-module github.com/chanbakjsd/gotrix
+module github.com/diamondburned/gotrix
 
 go 1.16
 

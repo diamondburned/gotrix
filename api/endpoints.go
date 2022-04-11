@@ -3,8 +3,8 @@ package api
 import (
 	"net/url"
 
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // SupportedVersions contains versions supported by gotrix.

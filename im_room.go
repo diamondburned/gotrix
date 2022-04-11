@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // ErrRoomAvatarNotFound is returned by RoomAvatar when the room avatar cannot be discovered.

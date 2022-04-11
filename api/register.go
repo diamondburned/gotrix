@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // RegisterArg represents arguments for the Register function.

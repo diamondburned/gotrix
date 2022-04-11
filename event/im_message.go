@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/chanbakjsd/gotrix/encrypt"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/encrypt"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 var _ RoomEvent = &RoomMessageEvent{}

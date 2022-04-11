@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // ThirdpartyIdentifier is an instance of thirdparty identifier returned by the

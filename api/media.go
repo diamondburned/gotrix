@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // MediaUpload uploads the provided file to the Matrix homeserver.

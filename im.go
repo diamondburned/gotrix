@@ -3,8 +3,8 @@ package gotrix
 import (
 	"errors"
 
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // MemberAvatarNotFound is returned by MemberAvatar when a member's avatar cannot be determined.

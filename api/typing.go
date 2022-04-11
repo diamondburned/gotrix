@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // TypingStart notifies the server that the user is typing in a specific room.

@@ -1,7 +1,7 @@
 package encrypt
 
 import (
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // File represents an encrypted file.

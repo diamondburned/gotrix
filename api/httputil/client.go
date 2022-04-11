@@ -10,8 +10,8 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"github.com/chanbakjsd/gotrix/debug"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/debug"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // Client is a HTTP client that is Matrix API-aware.

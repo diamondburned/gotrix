@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/chanbakjsd/gotrix/debug"
-	"github.com/chanbakjsd/gotrix/event"
+	"github.com/diamondburned/gotrix/debug"
+	"github.com/diamondburned/gotrix/event"
 )
 
 // Handler is the interface that represents the methods the client needs from the handler.

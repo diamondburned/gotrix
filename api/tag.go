@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/api/httputil"
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/api/httputil"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 var ErrInvalidTagName = errors.New("tag name must not exceed 255 bytes")

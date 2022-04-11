@@ -3,10 +3,10 @@ package gotrix
 import (
 	"errors"
 
-	"github.com/chanbakjsd/gotrix/api"
-	"github.com/chanbakjsd/gotrix/event"
-	"github.com/chanbakjsd/gotrix/matrix"
-	"github.com/chanbakjsd/gotrix/state"
+	"github.com/diamondburned/gotrix/api"
+	"github.com/diamondburned/gotrix/event"
+	"github.com/diamondburned/gotrix/matrix"
+	"github.com/diamondburned/gotrix/state"
 )
 
 // ErrInvalidStateEvent is returned by (*Client).RoomState and (*Client).RoomStates when homeserver returns an event

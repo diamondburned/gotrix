@@ -3,7 +3,7 @@ package gotrix
 import (
 	"fmt"
 
-	"github.com/chanbakjsd/gotrix/matrix"
+	"github.com/diamondburned/gotrix/matrix"
 )
 
 // MarkRoomAsDM fetches the DM room list, appends the provided room and reuploads the list.
