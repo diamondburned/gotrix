@@ -1,6 +1,7 @@
 package httputil
 
 import (
+	"bytes"
 	"encoding/json"
 	"io"
 	"net/http"
@@ -39,21 +40,14 @@ func WithBody(body io.ReadCloser) Modifier {
 // WithJSONBody attaches a JSON body to the request.
 func WithJSONBody(body interface{}) Modifier {
 	return func(_ *Client, req *http.Request) {
-		rp, wp := io.Pipe()
-		go func() {
-			err := json.NewEncoder(wp).Encode(&body)
-			if err != nil {
-				// May error if read pipe is closed. In which case, we don't care.
-				return
-			}
-			err = wp.Close()
-			if err != nil {
-				panic(err)
-			}
-		}()
+		b, err := json.Marshal(body)
+		if err != nil {
+			return
+		}
 
+		req.Body = io.NopCloser(bytes.NewReader(b))
+		req.ContentLength = int64(len(b))
 		req.Header.Add("Content-Type", "application/json")
-		req.Body = rp
 	}
 }
 
